@@ -1,0 +1,43 @@
+Last login: Sun May  3 09:04:40 on console
+Taylors-Air:~ taylorsomma$ cd school
+Taylors-Air:school taylorsomma$ javac depthFirstSearch.jaga
+error: Class names, 'depthFirstSearch.jaga', are only accepted if annotation processing is explicitly requested
+1 error
+Taylors-Air:school taylorsomma$ javac depthFirstSearch.java
+Taylors-Air:school taylorsomma$ java depthFirstSearch
+Test setup
+true
+false
+GN1 has: 3 Neighbors
+GN2 has: 3 Neighbors
+GN3 has: 1 Neighbors
+GN4 has: 2 Neighbors
+GN5 has: 1 Neighbors
+GN6 has: 1 Neighbors
+GN7 has: 1 Neighbors
+true
+Boston Neighbors Are: 
+New York, Chicago, Los Angeles, 
+
+New York Neighbors Are: 
+Boston, Miami, Houston, 
+
+Chicago Neighbors Are: 
+Boston, 
+
+Los Angeles Neighbors Are: 
+Boston, Honolulu, 
+
+Miami Neighbors Are: 
+New York, 
+
+Houston Neighbors Are: 
+New York, 
+
+gNU at New York
+gNU at Boston
+gNU at Miami
+Popping node: Miami
+Popping node: New York
+Popping node: Boston
+Taylors-Air:school taylorsomma$ 

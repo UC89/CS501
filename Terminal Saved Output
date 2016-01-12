@@ -1,0 +1,187 @@
+Last login: Mon Apr 13 22:39:36 on ttys000
+Taylors-Air:~ taylorsomma$ cd school
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+Taylors-Air:school taylorsomma$ java myJavaHelper
+Welcome to the Java Helper 
+Please note that the sole purpose of this program was to help me learn java
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+myJavaHelper.java:31: error: invalid method declaration; return type required
+	public addNode(graphNode newNode)
+	       ^
+1 error
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+myJavaHelper.java:34: error: cannot find symbol
+		graphNode[lastNode]=newNode;
+		^
+  symbol:   variable graphNode
+  location: class nodeStack
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+myJavaHelper.java:34: error: cannot find symbol
+                graphNode[lastNode]=newNode;
+                ^
+  symbol:   variable graphNode
+  location: class nodeStack
+myJavaHelper.java:45: error: cannot find symbol
+                        ArrayUtils.removeElement(graphNodeStack,lastNode-1);
+                        ^
+  symbol:   variable ArrayUtils
+  location: class nodeStack
+2 errors
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+Taylors-Air:school taylorsomma$ java myJavaHelper
+Welcome to the Java Helper 
+Please note that the sole purpose of this program was to help me learn java
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+myJavaHelper.java:94: error: cannot find symbol
+                graphNode1 graphNode=new graphNode("Boston");
+                ^
+  symbol:   class graphNode1
+  location: class myJavaHelper
+myJavaHelper.java:95: error: cannot find symbol
+                graphNode2 graphNode=new graphNode("New York");
+                ^
+  symbol:   class graphNode2
+  location: class myJavaHelper
+myJavaHelper.java:96: error: cannot find symbol
+                graphNode3 graphNode=new graphNode("Chicago");
+                ^
+  symbol:   class graphNode3
+  location: class myJavaHelper
+3 errors
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+myJavaHelper.java:94: error: cannot find symbol
+                graphNode1 graphNode = new graphNode("Boston");
+                ^
+  symbol:   class graphNode1
+  location: class myJavaHelper
+myJavaHelper.java:95: error: cannot find symbol
+                graphNode2 graphNode = new graphNode("New York");
+                ^
+  symbol:   class graphNode2
+  location: class myJavaHelper
+myJavaHelper.java:96: error: cannot find symbol
+                graphNode3 graphNode = new graphNode("Chicago");
+                ^
+  symbol:   class graphNode3
+  location: class myJavaHelper
+3 errors
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+myJavaHelper.java:97: error: non-static method returnNodeName() cannot be referenced from a static context
+                System.out.println("Node 1 Label: "+graphNode.returnNodeName());
+                                                             ^
+1 error
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+myJavaHelper.java:19: error: non-static variable label cannot be referenced from a static context
+                return label;
+                       ^
+1 error
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+myJavaHelper.java:19: error: non-static variable label cannot be referenced from a static context
+                return label;
+                       ^
+1 error
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+myJavaHelper.java:97: error: non-static method returnNodeName() cannot be referenced from a static context
+                System.out.println("Node 1 Label: "+graphNode.returnNodeName());
+                                                             ^
+1 error
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+Taylors-Air:school taylorsomma$ java myJavaHelper
+Welcome to the Java Helper 
+Please note that the sole purpose of this program was to help me learn java
+Node 1 Label: Chicago
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+Taylors-Air:school taylorsomma$ java myJavaHelper
+Welcome to the Java Helper 
+Please note that the sole purpose of this program was to help me learn java
+Node 1 Label: Chicago
+Node 2 Label: Chicago
+Node 3 Label: Chicago
+Taylors-Air:school taylorsomma$ java myJavaHelper
+Welcome to the Java Helper 
+Please note that the sole purpose of this program was to help me learn java
+Node 1 Label: Chicago
+Node 2 Label: Chicago
+Node 3 Label: Chicago
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+myJavaHelper.java:19: error: non-static variable label cannot be referenced from a static context
+                return label;
+                       ^
+1 error
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+Taylors-Air:school taylorsomma$ java myJavaHelper
+Welcome to the Java Helper 
+Please note that the sole purpose of this program was to help me learn java
+Node 1 Label: Boston
+Node 2 Label: New York
+Node 3 Label: Chicago
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+Taylors-Air:school taylorsomma$ java myJavaHelper
+Welcome to the Java Helper 
+Please note that the sole purpose of this program was to help me learn java
+Node 1 Label: Boston
+Node 2 Label: New York
+Node 3 Label: Chicago
+
+Creating new Graph
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+Taylors-Air:school taylorsomma$ java myJavaHelper
+Welcome to the Java Helper 
+Please note that the sole purpose of this program was to help me learn java
+Node 1 Label: Boston
+Node 2 Label: New York
+Node 3 Label: Chicago
+
+Creating new Graph
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+myJavaHelper.java:84: error: illegal start of expression
+                private String returnString="";
+                ^
+1 error
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+Taylors-Air:school taylorsomma$ java myJavaHelper
+Welcome to the Java Helper 
+Please note that the sole purpose of this program was to help me learn java
+Node 1 Label: Boston
+Node 2 Label: New York
+Node 3 Label: Chicago
+
+Creating new Graph
+Exception in thread "main" java.lang.NullPointerException
+        at graphClass.returnContentLabels(myJavaHelper.java:87)
+        at myJavaHelper.main(myJavaHelper.java:120)
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+myJavaHelper.java:87: error: cannot find symbol
+                        if (nodeInGraph[x]!=null)
+                            ^
+  symbol:   variable nodeInGraph
+  location: class graphClass
+1 error
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+Taylors-Air:school taylorsomma$ java myJavaHelper
+Welcome to the Java Helper 
+Please note that the sole purpose of this program was to help me learn java
+Node 1 Label: Boston
+Node 2 Label: New York
+Node 3 Label: Chicago
+
+Creating new Graph
+Taylors-Air:school taylorsomma$ java myJavaHelper
+Welcome to the Java Helper 
+Please note that the sole purpose of this program was to help me learn java
+Node 1 Label: Boston
+Node 2 Label: New York
+Node 3 Label: Chicago
+
+Creating new Graph
+Taylors-Air:school taylorsomma$ javac myJavaHelper.java
+Taylors-Air:school taylorsomma$ java myJavaHelper
+Welcome to the Java Helper 
+Please note that the sole purpose of this program was to help me learn java
+Node 1 Label: Boston
+Node 2 Label: New York
+Node 3 Label: Chicago
+
+Creating new Graph
+ ,Boston ,New York ,Chicago
+Taylors-Air:school taylorsomma$ 
